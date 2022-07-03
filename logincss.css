@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-transform: uppercase;
+    background-color: #f0ebea;
+    font-family: 'Righteous', cursive;
+}
+form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+width: 100%;
+}
+
+button {
+    width: 5rem;
+    border: none;
+    box-shadow: 1px 1px 3px rgb(156, 139, 139);
+    color: rgb(224, 50, 79);
+    transition: all ease 1.2s;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(224, 50, 79);
+}
+form>h2{ 
+    color: rgb(70, 66, 62);
+    text-shadow:1px 1px 5px rgb(184, 176, 169);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+input{ 
+    height: 2rem;
+    border: none;
+    width: 18rem;
+    box-shadow: inset 1px 0px 7px rgb(170, 164, 140);
+    margin-bottom: 1rem;
+    transition: ease 1s;
+    border-radius: 1rem;
+    padding:1rem;
+text-align: center;
+}
+form>p{
+    margin-top: 1rem;
+    color: rgb(70, 66, 62);
+    text-shadow:1px 1px 5px rgb(184, 176, 169);
+}
+input:hover {
+    box-shadow: inset 1px 1px 3px;
+}  
+form> ul{
+    margin-top: 2rem;
+}
+form >ul li {
+    margin-top: .5rem;
+    display: inline;
+    transition: ease 1s;
+}
+form i{
+color: rgb(37, 37, 235);
+    width: 3rem; 
+    transition: ease 1s;
+}
+form i:hover{
+transform: rotate(360deg);
+font-size:x-large;}
+  @media (max-width:450px){
+  input{
+      width:13rem ;
+  }
+}

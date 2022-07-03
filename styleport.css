@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-image: url(https://static.wixstatic.com/media/e22a31_500df2a1755d48ada4b67f9e119b802e~mv2.png/v1/fill/w_560,h_494,al_c,q_85,usm_0.66_1.00_0.01/e22a31_500df2a1755d48ada4b67f9e119b802e~mv2.webp), url(https://img.freepik.com/free-vector/programming-code-coding-hacker-background-programming-code-icon-made-with-binary-code_127544-815.jpg?size=626&ext=jpg);
+    background-blend-mode: multiply;
+}
+
+.intro i {
+    transition: all ease 2s;
+    margin-top: 1rem;
+}
+
+.intro i:hover {
+    transform: rotate(360deg);
+}
+
+.nav ul {
+    padding: 1rem 2rem 0rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul li,
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.language {
+    margin-top: 7rem;
+}
+
+.sec1>h2 {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.sec1 {
+    margin-top: 4rem;
+}
+
+.sec1>h1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.divide {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left li,
+.right li {
+    margin-top: 1rem;
+}
+
+.left ul,
+.right ul {
+    border: 2px solid transparent;
+    width: 15rem;
+}
+
+.vr-line {
+    border: 2px solid white;
+    height: 20rem;
+}
+
+.sec2 {
+    margin-top: 4rem;
+    transition: ease 1s;
+}
+
+.sec1 i:hover {
+    transform: scale(1.1);
+}
+
+.sec2 ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.sec2 li {
+    border: 2px solid black;
+    box-shadow: 1px 2px 20px white;
+    width: 15rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    transition: 1s;
+}
+
+.sec2 li:hover {
+    transform: scale(1.2);
+}
+
+.sec3 {
+    margin-top: 4rem;
+    transition: ease 1s;
+}
+
+.sec3 ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.sec3 i {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+@media (min-width:851px)and (max-width:950px) {
+    .sec2 li:hover {
+        transform: scale(1.05);
+    }
+    .sec2 li {
+        border: 2px solid black;
+        box-shadow: 1px 1px 10px white;
+    }
+}
+
+@media (max-width:850px) {
+    .left ul,
+    .right ul {
+        border: 2px solid transparent;
+        width: 10rem;
+    }
+    .sec2 ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .vr-line {
+        height: 25rem;
+    }
+    .sec2 li:hover {
+        width: 100%;
+    }
+    .sec2 li {
+        margin-bottom: 1rem;
+        border: 2px solid black;
+        box-shadow: 1px 1px 10px white;
+    }
+}
